@@ -1,0 +1,5 @@
+package com.moneymoney.app.transactionservice.repository;
+
+public class TransactionRepository {
+
+}

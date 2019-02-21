@@ -1,0 +1,14 @@
+package com.moneymoney.app.transactionservice.dataset;
+
+import java.util.List;
+
+import org.springframework.hateoas.Link;
+
+import com.moneymoney.app.transactionservice.entity.Transaction;
+
+public class DataSet {
+
+	public List<Transaction> transaction;
+	public Link nextLink;
+	
+}

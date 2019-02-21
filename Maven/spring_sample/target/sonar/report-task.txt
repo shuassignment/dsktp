@@ -1,0 +1,6 @@
+projectKey=com.cg.app:spring_sample
+serverUrl=http://localhost:9000
+serverVersion=6.7.6.38781
+dashboardUrl=http://localhost:9000/dashboard/index/com.cg.app:spring_sample
+ceTaskId=AWgY_9ZX8RmQDfxk5rzv
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWgY_9ZX8RmQDfxk5rzv

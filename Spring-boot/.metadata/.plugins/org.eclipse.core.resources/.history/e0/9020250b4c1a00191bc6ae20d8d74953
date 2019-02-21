@@ -1,0 +1,39 @@
+package com.moneymoney.app.accountservice;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.cg.rest.restservice.entity.Address;
+import com.cg.rest.restservice.entity.Employee;
+import com.cg.rest.restservice.repo.EmployeeRepository;
+import com.moneymoney.app.accountservice.entity.SavingsAccount;
+import com.moneymoney.app.accountservice.repo.AccountRepository;
+
+@SpringBootApplication
+public class AccountServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AccountServiceApplication.class, args);
+	}
+
+	/*
+	 * @Bean public RestTemplate restTemplate() { return new RestTemplate(); }
+	 */
+
+	@Bean
+	public CommandLineRunner commandLineRunner(AccountRepository repository) {
+		return(args)->{
+			repository.save(new SavingsAccount(101, "Shubham", 15000.00, true));
+			repository.save(new SavingsAccount(102, "Kanak", 25000.00, true));
+			repository.save(new SavingsAccount(103, "Tejas", 6000.00, false));
+			repository.save(new SavingsAccount(104, "Shailaja", 2000.00, true));
+			repository.save(new SavingsAccount(105, "Deepika", 5000.00, false));
+		};
+	
+	};
+
+
+}
+

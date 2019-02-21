@@ -1,0 +1,5 @@
+package com.moneymoney.app.transactionservice.dataset;
+
+public class DataSet {
+
+}

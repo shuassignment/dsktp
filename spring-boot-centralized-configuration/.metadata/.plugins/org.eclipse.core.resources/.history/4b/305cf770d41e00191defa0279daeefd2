@@ -1,0 +1,5 @@
+package com.mm.eureka.helloworldservice.resource;
+
+public class HelloWorldResource {
+
+}

@@ -1,0 +1,325 @@
+src/com/moneymoney/account/BankAccount.java:3:	Header comments are required
+src/com/moneymoney/account/BankAccount.java:3:	The class 'BankAccount' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=7)
+src/com/moneymoney/account/BankAccount.java:4:	Field comments are required
+src/com/moneymoney/account/BankAccount.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/moneymoney/account/BankAccount.java:5:	Field comments are required
+src/com/moneymoney/account/BankAccount.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/moneymoney/account/BankAccount.java:6:	Field comments are required
+src/com/moneymoney/account/BankAccount.java:9:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/BankAccount.java:9:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/BankAccount.java:9:	Public method and constructor comments are required
+src/com/moneymoney/account/BankAccount.java:14:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/BankAccount.java:14:	Public method and constructor comments are required
+src/com/moneymoney/account/BankAccount.java:18:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/BankAccount.java:18:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/BankAccount.java:18:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/BankAccount.java:18:	Public method and constructor comments are required
+src/com/moneymoney/account/BankAccount.java:28:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:3:	Header comments are required
+src/com/moneymoney/account/CurrentAccount.java:3:	The class 'CurrentAccount' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/com/moneymoney/account/CurrentAccount.java:5:	Field comments are required
+src/com/moneymoney/account/CurrentAccount.java:6:	Field comments are required
+src/com/moneymoney/account/CurrentAccount.java:12:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:12:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:13:	Parameter 'odLimit' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:18:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:18:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:18:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:18:	Parameter 'odLimit' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:18:	Public method and constructor comments are required
+src/com/moneymoney/account/CurrentAccount.java:27:	Parameter 'odLimit' is not assigned and could be declared final
+src/com/moneymoney/account/CurrentAccount.java:35:	Parameter 'bankAccount' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:3:	Header comments are required
+src/com/moneymoney/account/SavingsAccount.java:3:	The class 'SavingsAccount' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=7)
+src/com/moneymoney/account/SavingsAccount.java:4:	Field comments are required
+src/com/moneymoney/account/SavingsAccount.java:5:	Field comments are required
+src/com/moneymoney/account/SavingsAccount.java:7:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:7:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:7:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:7:	Public method and constructor comments are required
+src/com/moneymoney/account/SavingsAccount.java:11:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:11:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:11:	Public method and constructor comments are required
+src/com/moneymoney/account/SavingsAccount.java:16:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:16:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:16:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:16:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:16:	Public method and constructor comments are required
+src/com/moneymoney/account/SavingsAccount.java:24:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/SavingsAccount.java:32:	Parameter 'bankAccount' is not assigned and could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:9:	Header comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:12:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:13:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:14:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:15:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:16:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:17:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:18:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:22:	Comment is too large: Line too long
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:22:	Comment is too large: Too many lines
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:26:	Comment is too large: Line too long
+src/com/moneymoney/account/dao/CurrentAccountDAO.java:27:	Comment is too large: Line too long
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:11:	Each class should declare at least one constructor
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:11:	Header comments are required
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:14:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:15:	Ensure that resources like this Connection object are closed after use
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:15:	Local variable 'connection' could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:16:	Local variable 'preparedStatement' could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:16:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:17:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:17:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:17:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:19:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:20:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:28:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:34:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:40:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:52:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/dao/CurrentAccountDAOImpl.java:52:	Parameter 'currentBalance' is not assigned and could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:8:	Header comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:10:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:11:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:12:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:13:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:14:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:15:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAO.java:16:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:14:	Each class should declare at least one constructor
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:14:	Header comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:16:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:16:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:16:	The method 'createNewAccount(SavingsAccount)' is missing an @Override annotation.
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:17:	Ensure that resources like this Connection object are closed after use
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:17:	Local variable 'connection' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:18:	Local variable 'preparedStatement' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:20:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:31:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:31:	The method 'getAllSavingsAccount()' is missing an @Override annotation.
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:32:	Local variable 'savingsAccounts' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:33:	Ensure that resources like this Connection object are closed after use
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:33:	Local variable 'connection' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:34:	Ensure that resources like this Statement object are closed after use
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:34:	Local variable 'statement' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:35:	Ensure that resources like this ResultSet object are closed after use
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:35:	Local variable 'resultSet' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:37:	Local variable 'accountNumber' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:38:	Local variable 'accountHolderName' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:39:	Local variable 'accountBalance' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:40:	Local variable 'salary' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:41:	Avoid instantiating new objects inside loops
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:41:	Local variable 'savingsAccount' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:49:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:49:	Parameter 'currentBalance' is not assigned and could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:50:	Ensure that resources like this Connection object are closed after use
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:50:	Local variable 'connection' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:52:	Local variable 'preparedStatement' could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:54:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:58:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:58:	Public method and constructor comments are required
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:58:	The method 'updateAccount(SavingsAccount)' is missing an @Override annotation.
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:64:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/dao/SavingsAccountDAOImpl.java:70:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/factory/AccountFactory.java:5:	Header comments are required
+src/com/moneymoney/account/factory/AccountFactory.java:7:	Field comments are required
+src/com/moneymoney/account/factory/AccountFactory.java:13:	Public method and constructor comments are required
+src/com/moneymoney/account/factory/AccountFactory.java:17:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/factory/AccountFactory.java:17:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/factory/AccountFactory.java:17:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/factory/AccountFactory.java:17:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:6:	An empty statement (semicolon) not part of a loop
+src/com/moneymoney/account/service/CurrentAccountService.java:8:	Header comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:9:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:11:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:13:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:15:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:17:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:19:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:20:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountService.java:21:	Public method and constructor comments are required
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:11:	Each class should declare at least one constructor
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:11:	Header comments are required
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:13:	Field comments are required
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:13:	To avoid mistakes add a comment at the beginning of the currentAccountDAO field if you want a default access modifier
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:13:	Use explicit scoping instead of the default package private level
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:14:	Field comments are required
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:14:	To avoid mistakes add a comment at the beginning of the accountFactory field if you want a default access modifier
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:14:	Use explicit scoping instead of the default package private level
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:16:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:17:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:17:	Parameter 'odLimit' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:25:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:31:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:37:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:50:	Parameter 'receiver' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:50:	Parameter 'sender' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:51:	Parameter 'amount' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:57:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:57:	Parameter 'amount' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:64:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/service/CurrentAccountServiceImpl.java:64:	Parameter 'amount' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountService.java:8:	Header comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:10:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:12:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:14:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:16:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:18:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:20:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:21:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountService.java:22:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:13:	Header comments are required
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:15:	Field comments are required
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:15:	Private field 'factory' could be made final; it is only initialized in the declaration or constructor.
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:16:	Field comments are required
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:16:	Private field 'savingsAccountDAO' could be made final; it is only initialized in the declaration or constructor.
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:18:	Public method and constructor comments are required
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:24:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:24:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:24:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:26:	Local variable 'account' could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:37:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:37:	Parameter 'amount' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:48:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:48:	Parameter 'amount' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:60:	Parameter 'amount' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:60:	Parameter 'receiver' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:60:	Parameter 'sender' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:67:	Parameter 'account' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:73:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/service/SavingsAccountServiceImpl.java:79:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/moneymoney/account/ui/AccountCUI.java:11:	Header comments are required
+src/com/moneymoney/account/ui/AccountCUI.java:12:	Field comments are required
+src/com/moneymoney/account/ui/AccountCUI.java:13:	Avoid excessively long variable names like savingsAccountService
+src/com/moneymoney/account/ui/AccountCUI.java:13:	Field comments are required
+src/com/moneymoney/account/ui/AccountCUI.java:14:	Public method and constructor comments are required
+src/com/moneymoney/account/ui/AccountCUI.java:17:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:18:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:19:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:20:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:21:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:22:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:23:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:24:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:25:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:26:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:27:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:28:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:29:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:30:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:31:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:33:	Local variable 'choice' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:40:	Parameter 'choice' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:58:	System.exit() should not be used in J2EE/JEE apps
+src/com/moneymoney/account/ui/AccountCUI.java:61:	System.err.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:76:	Avoid unused method parameters such as 'sortWay'.
+src/com/moneymoney/account/ui/AccountCUI.java:76:	Avoid unused private methods such as 'sortMenu(String)'.
+src/com/moneymoney/account/ui/AccountCUI.java:76:	Parameter 'sortWay' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:78:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:79:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:80:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:81:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:82:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:84:	Avoid unused local variables such as 'choice'.
+src/com/moneymoney/account/ui/AccountCUI.java:84:	Found 'DD'-anomaly for variable 'choice' (lines '84'-'84').
+src/com/moneymoney/account/ui/AccountCUI.java:84:	Found 'DU'-anomaly for variable 'choice' (lines '84'-'88').
+src/com/moneymoney/account/ui/AccountCUI.java:84:	Local variable 'choice' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:90:	Found 'UR'-anomaly for variable 'savingsAccount' (lines '90'-'95').
+src/com/moneymoney/account/ui/AccountCUI.java:94:	Local variable 'savingsAccount' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:95:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:98:	Avoid printStackTrace(); use a logger call instead.
+src/com/moneymoney/account/ui/AccountCUI.java:103:	Parameter 'type' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:104:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/moneymoney/account/ui/AccountCUI.java:105:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:106:	Found 'DD'-anomaly for variable 'accountHolderName' (lines '106'-'107').
+src/com/moneymoney/account/ui/AccountCUI.java:108:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:109:	Local variable 'accountBalanceStr' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:110:	Found 'DD'-anomaly for variable 'accountBalance' (lines '110'-'112').
+src/com/moneymoney/account/ui/AccountCUI.java:111:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/moneymoney/account/ui/AccountCUI.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/ui/AccountCUI.java:114:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:115:	Local variable 'salary' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/com/moneymoney/account/ui/AccountCUI.java:117:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/moneymoney/account/ui/AccountCUI.java:118:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:119:	Found 'DD'-anomaly for variable 'accountHolderName' (lines '119'-'120').
+src/com/moneymoney/account/ui/AccountCUI.java:121:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:122:	Local variable 'accountOdLimit' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:123:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:124:	Local variable 'accountBalanceStr' could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:125:	Found 'DD'-anomaly for variable 'accountBalance' (lines '125'-'127').
+src/com/moneymoney/account/ui/AccountCUI.java:126:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/moneymoney/account/ui/AccountCUI.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/com/moneymoney/account/ui/AccountCUI.java:129:	System.out.println is used
+src/com/moneymoney/account/ui/AccountCUI.java:134:	Avoid unused method parameters such as 'accountHolderName'.
+src/com/moneymoney/account/ui/AccountCUI.java:134:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:135:	Avoid unused method parameters such as 'accountBalance'.
+src/com/moneymoney/account/ui/AccountCUI.java:135:	Avoid unused method parameters such as 'accountOdLimit'.
+src/com/moneymoney/account/ui/AccountCUI.java:135:	Document empty method body
+src/com/moneymoney/account/ui/AccountCUI.java:135:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:135:	Parameter 'accountOdLimit' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:140:	Parameter 'accountBalance' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:140:	Parameter 'accountHolderName' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:140:	Parameter 'salary' is not assigned and could be declared final
+src/com/moneymoney/account/ui/AccountCUI.java:145:	Avoid printStackTrace(); use a logger call instead.
+src/com/moneymoney/account/ui/AccountCUI.java:146:	'catch' branch identical to 'ClassNotFoundException' branch
+src/com/moneymoney/account/ui/AccountCUI.java:147:	Avoid printStackTrace(); use a logger call instead.
+src/com/moneymoney/account/util/DBUtil.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/moneymoney/account/util/DBUtil.java:7:	Header comments are required
+src/com/moneymoney/account/util/DBUtil.java:9:	Field comments are required
+src/com/moneymoney/account/util/DBUtil.java:11:	Public method and constructor comments are required
+src/com/moneymoney/account/util/DBUtil.java:12:	Singleton is not thread safe
+src/com/moneymoney/account/util/DBUtil.java:19:	Public method and constructor comments are required
+src/com/moneymoney/account/util/DBUtil.java:24:	Public method and constructor comments are required
+src/com/moneymoney/account/util/DBUtil.java:30:	Public method and constructor comments are required
+src/com/moneymoney/account/util/DBUtil.java:31:	Singleton is not thread safe
+src/com/moneymoney/account/util/DBUtil.java:33:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/moneymoney/application/Bootstrap.java:3:	Avoid unused imports such as 'java.sql.Connection'
+src/com/moneymoney/application/Bootstrap.java:4:	Avoid unused imports such as 'java.sql.DriverManager'
+src/com/moneymoney/application/Bootstrap.java:5:	Avoid unused imports such as 'java.sql.PreparedStatement'
+src/com/moneymoney/application/Bootstrap.java:6:	Avoid unused imports such as 'java.sql.SQLException'
+src/com/moneymoney/application/Bootstrap.java:10:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/moneymoney/application/Bootstrap.java:10:	Header comments are required
+src/com/moneymoney/application/Bootstrap.java:11:	Comment is too large: Too many lines
+src/com/moneymoney/application/Bootstrap.java:28:	Parameter 'args' is not assigned and could be declared final
+src/com/moneymoney/application/Bootstrap.java:28:	Public method and constructor comments are required
+src/com/moneymoney/exception/InsufficientFundsException.java:3:	Classes implementing Serializable should set a serialVersionUID
+src/com/moneymoney/exception/InsufficientFundsException.java:3:	Header comments are required
+src/com/moneymoney/exception/InsufficientFundsException.java:5:	Parameter 'message' is not assigned and could be declared final
+src/com/moneymoney/exception/InsufficientFundsException.java:5:	Public method and constructor comments are required
+src/com/moneymoney/exception/InvalidInputException.java:3:	Classes implementing Serializable should set a serialVersionUID
+src/com/moneymoney/exception/InvalidInputException.java:3:	Header comments are required
+src/com/moneymoney/exception/InvalidInputException.java:5:	Parameter 'message' is not assigned and could be declared final
+src/com/moneymoney/exception/InvalidInputException.java:5:	Public method and constructor comments are required

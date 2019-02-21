@@ -1,0 +1,5 @@
+package com.moneymoney.app.transactionservice;
+
+public class TransactionServiceImpl {
+
+}

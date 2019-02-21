@@ -1,0 +1,15 @@
+package com.moneymoney.app.accountservice.repo;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.moneymoney.app.accountservice.entity.Account;
+import com.moneymoney.app.accountservice.entity.SavingsAccount;
+
+public interface AccountRepository extends MongoRepository<Account, Integer>{
+	
+//	List<SavingsAccount> findByTransactionDate(LocalDateTime startDate,LocalDateTime endDate);
+
+}

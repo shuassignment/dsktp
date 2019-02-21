@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Demo6-Actuator2-monitoring-metrics"/>
+<aop-project name="Demo7-Documentation"/>
+<aop-project name="Demo6-Actuator"/>
+<aop-project name="Demo6-Actuator2"/>
+<aop-project name="Demo4"/>
+</aop-reference-model>

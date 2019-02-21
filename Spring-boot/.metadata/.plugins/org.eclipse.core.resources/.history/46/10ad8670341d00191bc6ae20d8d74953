@@ -1,0 +1,10 @@
+package com.moneymoney.app.transactionservice.service;
+
+public interface TransactionService {
+
+
+	Double deposit(Integer accountNumber, String transactionDetails, Double currentBalance, Double amount);
+
+	Double withdraw(Integer accountNumber, String transactionDetails, Double currentBalance, Double amount);
+
+}

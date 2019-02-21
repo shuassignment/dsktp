@@ -1,0 +1,5 @@
+package com.mm.eureka.website.controller;
+
+public class HelloWorldController {
+
+}

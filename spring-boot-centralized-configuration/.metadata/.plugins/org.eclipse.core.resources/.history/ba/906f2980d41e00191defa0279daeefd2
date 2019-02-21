@@ -1,0 +1,10 @@
+package com.mm.eureka.helloworldservice.resource;
+
+import javax.validation.constraints.Digits;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldResource {
+
+}

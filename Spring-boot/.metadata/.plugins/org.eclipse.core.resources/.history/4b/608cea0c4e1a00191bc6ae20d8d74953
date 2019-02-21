@@ -1,0 +1,10 @@
+package com.moneymoney.app.accountservice.service;
+
+public class AccountServiceImpl {
+
+	
+	public void getAllAccounts() {
+		
+	}
+	
+}

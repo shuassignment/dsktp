@@ -1,0 +1,7 @@
+spring.application.name=website-service
+spring.cloud.config.uri=http://localhost:8888
+
+server.port=8763
+
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp

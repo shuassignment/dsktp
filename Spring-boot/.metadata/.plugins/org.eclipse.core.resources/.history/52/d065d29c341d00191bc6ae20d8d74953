@@ -1,0 +1,41 @@
+package com.moneymoney.app.transactionservice.service;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.moneymoney.app.transactionservice.entity.Transaction;
+import com.moneymoney.app.transactionservice.entity.TransactionType;
+import com.moneymoney.app.transactionservice.repository.TransactionRepository;
+
+public class TransactionServiceImpl implements TransactionService {
+
+	@Autowired
+	private TransactionRepository transactionRepository;
+
+
+
+	@Override
+	public Double deposit(Integer accountNumber, String transactionDetails, Double currentBalance, Double amount) {
+		Transaction transaction =  new Transaction(accountNumber, amount, TransactionType.DEPOSIT, transactionDetails);
+		currentBalance += amount; 
+		transaction.setCurrentBalance(currentBalance);
+		transaction.setTransactionDate(LocalDateTime.now());
+		transactionRepository.save(transaction);
+		return currentBalance;
+	}
+
+	@Override
+	public Double withdraw(Integer accountNumber, String transactionDetails, Double currentBalance, Double amount) {
+		Transaction transaction =  new Transaction(accountNumber, amount, TransactionType.WITHDRAW, transactionDetails);
+		if(currentBalance>amount)
+		{
+		currentBalance -= amount; 
+		}
+		transaction.setCurrentBalance(currentBalance);
+		transaction.setTransactionDate(LocalDateTime.now());
+		transactionRepository.save(transaction);
+		return currentBalance;
+	}
+	
+}

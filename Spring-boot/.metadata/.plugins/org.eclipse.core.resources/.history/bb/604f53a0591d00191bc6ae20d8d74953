@@ -1,0 +1,99 @@
+package com.moneymoney.app.transactionservice.resource;
+
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.mvc.ControllerLinkBuilder;
+
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.moneymoney.app.transactionservice.entity.Transaction;
+import com.moneymoney.app.transactionservice.service.TransactionService;
+
+@RestController
+@RequestMapping("/transactions")
+public class TransactionResource {
+
+	@Autowired
+	private RestTemplate restTemplate;
+
+	@Autowired
+	private TransactionService service;
+
+	@PostMapping("/deposit")
+	public ResponseEntity<Transaction> deposit(@RequestBody Transaction transaction) {
+		ResponseEntity<Double> entity = restTemplate.getForEntity(
+				"http://localhost:8989/accounts/" + transaction.getAccountNumber() + "/balance", Double.class);
+		Double currentBalance = entity.getBody();
+		Double updateBalance = service.deposit(transaction.getAccountNumber(), transaction.getTransactionDetails(),
+				currentBalance, transaction.getAmount());
+		restTemplate.put("http://localhost:8989/accounts/" + transaction.getAccountNumber() + "?balance="
+				+ transaction.getAmount(), null);
+		return new ResponseEntity<>(HttpStatus.CREATED);
+
+	}
+
+	@PostMapping("/withdraw")
+	public ResponseEntity<Transaction> withdraw(@RequestBody Transaction transaction) {
+		ResponseEntity<Double> entity = restTemplate.getForEntity(
+				"http://localhost:8989/accounts/" + transaction.getAccountNumber() + "/balance", Double.class);
+		Double currentBalance = entity.getBody();
+		service.withdraw(transaction.getAccountNumber(), transaction.getTransactionDetails(),
+				currentBalance, transaction.getAmount());
+		restTemplate.put("http://localhost:8989/accounts/" + transaction.getAccountNumber() + "?balance="
+				+ -transaction.getAmount(), null);
+		return new ResponseEntity<>(HttpStatus.CREATED);
+
+	}
+
+	@PostMapping("/fundTransfer")
+	public ResponseEntity<Transaction> fundtransfer(@RequestBody Transaction senderTransaction,@RequestBody Transaction receiverTransaction) {
+	
+		ResponseEntity<Double> senderEntity = restTemplate.getForEntity(
+				"http://localhost:8989/accounts/" + senderTransaction.getAccountNumber() + "/balance", Double.class);
+		Double senderBalance = senderEntity.getBody();
+//		service.withdraw(senderTransaction.getAccountNumber(), transaction.getTransactionDetails(),
+//				currentBalance, transaction.getAmount());
+		service.fundTransfer(senderTransaction,senderBalance,receiverTransaction);
+//		restTemplate.put("http://localhost:8989/accounts/" + transaction.getAccountNumber() + "?balance="
+//				+ transaction.getAmount(), null);
+		return new ResponseEntity<>(HttpStatus.CREATED);
+
+	}
+
+	@GetMapping
+	public List<Transaction> getStatement(@RequestParam("offset") int offset, @RequestParam("size") int size) {
+
+		int currentSize = size == 0 ? 5 : size;
+		int currentOffset = offset == 0 ? 1 : offset;
+
+//		Link previous = linkTo(methodOn(TransactionResource.class, getStatement(currentOffset-currentSize, currentSize)));
+//		ControllerLinkBuilder next = linkTo(methodOn(TransactionResource.class, getStatement(currentOffset+currentSize, currentSize)));
+//		
+
+		List<Transaction> transactions=service.getStatement();
+		List<Transaction> currentDataSet=new ArrayList<Transaction>();
+		
+		for(int i=currentOffset ;i<currentOffset+currentSize;i++) {
+			Transaction transaction=transactions.get(i);
+			currentDataSet.add(transaction);
+		}
+		
+		
+		return currentDataSet;
+	}
+
+}

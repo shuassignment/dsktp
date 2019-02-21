@@ -1,0 +1,5 @@
+package com.moneymoney.app.accountservice.service;
+
+public class AccountServiceImpl {
+
+}

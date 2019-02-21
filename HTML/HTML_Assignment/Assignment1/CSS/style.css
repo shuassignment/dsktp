@@ -1,0 +1,29 @@
+
+nav{
+    margin-top:-40px;
+}
+header{
+        margin-bottom: 16px;
+}
+a{
+    padding: 16px;
+    color: dimgrey;
+    
+    display: inline;
+}
+
+section{
+    width: 740px;
+    background-color: white;
+    padding: 16px;
+    margin-top: 16px;
+
+}
+aside{
+    background-color: red;
+    width: 360px;
+    float: right;
+    padding: 16px;
+    color: white;
+    margin-top: -175px;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract interface &apos;com.moneymoney.app.transactionservice.service.TransactionService&apos; from &apos;com.moneymoney.app.transactionservice.service.TransactionServiceImpl&apos;&#x0D;&#x0A;- Original project: &apos;transaction-service&apos;&#x0D;&#x0A;- Original element: &apos;com.moneymoney.app.transactionservice.service.TransactionServiceImpl&apos;&#x0D;&#x0A;- Extracted interface: &apos;com.moneymoney.app.transactionservice.service.TransactionService&apos;&#x0D;&#x0A;- Use super type where possible" comments="true" description="Extract interface &apos;TransactionService&apos;" flags="589830" id="org.eclipse.jdt.ui.extract.interface" input="/src\/main\/java&lt;com.moneymoney.app.transactionservice.service{TransactionServiceImpl.java[TransactionServiceImpl" instanceof="false" name="TransactionService" replace="true" stamp="1547892498656" version="1.0"/>
+</session>
